@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Perfil-Carlos Montoya</title>
+
+    <meta name="description"
+       content="Perfil personal de Carlos Montoya, soy un estudiante que le apasiona demasiado el tema de la programacion y el desarrolo de software">
+
+       <meta property="og:title" content="Perfil personal de Calos Montoya">
+       <meta property="og:description"
+           content="Conoce un poco sobre mi, mi informacion, habilidades y tecnologias que estoy aprendiendo.">
+       <meta property="og:type" content="website">
+       <meta property="og:url" content="https://miperfil.com/carlos">
+</head>
+
+<body>
+
+    <header>
+        <h1>Carlos Montoya</h1>
+        <p>Estudiante de Tecnologia en Sistemas apasionado por aprender y vivir de la programacion, la tecnologia y el ingles.</p>
+
+        <nav>
+            <a href="#sobre-mi">sobre mi</a>
+            <a href="#formacion">formacion</a>
+            <a href="#habilidades">habilidades</a>
+            <a href="#contacto">contacto</a>
+        </nav>
+
+    </header>
+
+    <main>
+        
+        <section id="sobre mi">
+            <h2>sobre mi</h2>
+            <p>
+                Soy estudiante de la Tecnologia en Sistemas y actualmente estoy aprendiendo diferentes
+                tecnologias relacionadas con el desarrollo de software. Me interesa mejorar mis
+                conocimientos en programacion, bases de datos, desarrollo web y creacion de aplicaciones.
+                Tambien estoy haciendo un curso de ingles en el cual actualmente voy en el nivel A2.
+            </p>
+
+            <figure>
+                <img src="Carlos.jpg" width="300"
+                    alt="Foto representativa de Carlos Montoya">
+
+                <figcaption>
+                    Foto de perfil de Carlos Montoya.
+                </figcaption>
+            </figure>
+        </section>
+
+
+         <section id="formacion">
+            <h2>Formación académica</h2>
+
+            <table border="1">
+
+                <caption>Mi formación académica</caption>
+
+                <thead>
+                    <tr>
+                        <th>Institución</th>
+                        <th>Título</th>
+                        <th>Año</th>
+                    </tr>
+                </thead>
+
+                <tbody>
+                   <tr>
+                        <td>Institución Educativa Manzanares</td>
+                        <td>Bachiller Académico</td>
+                        <td>2023</td>
+                    </tr>
+
+                <tr>
+                        <td>Universidad de Caldas</td>
+                        <td>Tecnologia en Sistemas</td>
+                        <td>En curso</td>
+                    </tr>
+
+                <tr>
+                        <td>American School Way</td>
+                        <td>Ingles-C1</td>
+                        <td>En curso</td>
+                    </tr>    
+
+                </tbody>
+
+            </table>
+        </section>
+
+
+        <section id="habilidades">
+            <h2>Habilidades</h2>
+
+            <h3>Tecnologías que conozco</h3>
+
+            <ul>
+                <li>HTML</li>
+                <li>Java</li>
+                <li>SQL</li>
+                <li>MySQL</li>
+                <li>Git y GitHub</li>
+            </ul>
+
+
+            <h3>Top 3 de cosas que quiero aprender este semestre</h3>
+
+            <ol>
+                <li>Desarrollo web con HTML, CSS y JavaScript</li>
+                <li>Mejorar mis conocimientos en bases de datos</li>
+                <li>Aprender desarrollo de aplicaciones</li>
+            </ol>
+        </section>
+
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+
+            <form action="#" method="post">
+
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input
+                        type="text"
+                        id="nombre"
+                        name="nombre"
+                        required
+                        minlength="3">
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="correo">Correo electrónico:</label>
+                    <input
+                        type="email"
+                        id="correo"
+                        name="correo"
+                        required>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="asunto">Asunto:</label>
+
+                    <select id="asunto" name="asunto" required>
+                        <option value="">Seleccione una opción</option>
+                        <option value="informacion">Solicitar información</option>
+                        <option value="proyecto">Propuesta de proyecto</option>
+                        <option value="contacto">Contacto general</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="mensaje">Mensaje:</label>
+
+                    <textarea
+                        id="mensaje"
+                        name="mensaje"
+                        required
+                        minlength="10"
+                        rows="5"
+                        cols="40"></textarea>
+                </div>
+
+                <br>
+
+                <div>
+                    <input
+                        type="checkbox"
+                        id="aceptar-datos"
+                        name="aceptar-datos"
+                        required>
+
+                    <label for="aceptar-datos">
+                        Acepto el tratamiento de mis datos personales.
+                    </label>
+                </div>
+
+                <br>
+
+                <button type="submit">Enviar mensaje</button>
+
+            </form>
+        </section>
+
+    </main>
+
+
+    <footer>
+        <p>Correo: carloseduardo@email.com</p>
+        <p>&copy; 2026 Carlos Montoya</p>
+    </footer>
+
+</body>
+</html>
