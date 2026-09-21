@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Tienda de productos</title>
+
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            MiTienda
+        </div>
+
+        <div class="buscador">
+            <input type="text" placeholder="Buscar productos...">
+        </div>
+
+        <nav>
+            <a href="#">Inicio</a>
+            <a href="#">Productos</a>
+            <a href="#">Carrito</a>
+        </nav>
+
+    </header>
+
+
+    <aside>
+
+        <h2>Filtros</h2>
+
+        <div class="grupo-filtro">
+
+            <h3>Categoría</h3>
+
+            <label>
+                <input type="checkbox">
+                Tecnología
+            </label>
+
+            <label>
+                <input type="checkbox">
+                Hogar
+            </label>
+
+            <label>
+                <input type="checkbox">
+                Ropa
+            </label>
+
+        </div>
+
+
+        <div class="grupo-filtro">
+
+            <h3>Precio</h3>
+
+            <label for="minimo">Mínimo</label>
+            <input type="number" id="minimo" placeholder="$0">
+
+            <label for="maximo">Máximo</label>
+            <input type="number" id="maximo" placeholder="$500000">
+
+        </div>
+
+
+        <div class="grupo-filtro">
+
+            <h3>Ordenar por</h3>
+
+            <label>
+                <input type="radio" name="orden">
+                Menor precio
+            </label>
+
+            <label>
+                <input type="radio" name="orden">
+                Mayor precio
+            </label>
+
+            <label>
+                <input type="radio" name="orden">
+                Más recientes
+            </label>
+
+        </div>
+
+    </aside>
+
+
+    <main>
+
+        <h1>Resultados</h1>
+
+        <div class="grilla-productos">
+
+
+            <article class="tarjeta">
+
+                <img src="audifonos-inalambricos.jpg" alt="Producto 1">
+
+                <h2>Audífonos inalámbricos</h2>
+
+                <p>
+                    Audífonos cómodos con conexión Bluetooth y excelente sonido.
+                </p>
+
+                <span class="precio">$120.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="reloj-inteligente.jpg" alt="Producto 2">
+
+                <h2>Reloj inteligente</h2>
+
+                <p>
+                    Reloj moderno para controlar tu actividad física durante el día.
+                </p>
+
+                <span class="precio">$180.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="mochila.jpg" alt="Producto 3">
+
+                <h2>Mochila</h2>
+
+                <p>
+                    Mochila cómoda y resistente para universidad o trabajo.
+                </p>
+
+                <span class="precio">$90.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="teclado.jpg" alt="Producto 4">
+
+                <h2>Teclado</h2>
+
+                <p>
+                    Teclado compacto ideal para estudiar, trabajar o jugar.
+                </p>
+
+                <span class="precio">$140.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="mouse-inalambrico.jpg" alt="Producto 5">
+
+                <h2>Mouse inalámbrico</h2>
+
+                <p>
+                    Mouse ligero con conexión inalámbrica y diseño ergonómico.
+                </p>
+
+                <span class="precio">$65.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="lampara-escritorio.jpg" alt="Producto 6">
+
+                <h2>Lámpara de escritorio</h2>
+
+                <p>
+                    Lámpara moderna para iluminar tu espacio de estudio.
+                </p>
+
+                <span class="precio">$75.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="parlante-bluetooth.jpg" alt="Producto 7">
+
+                <h2>Parlante Bluetooth</h2>
+
+                <p>
+                    Parlante portátil con sonido potente y batería recargable.
+                </p>
+
+                <span class="precio">$110.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="botella_termica.jpg" alt="Producto 8">
+
+                <h2>Botella térmica</h2>
+
+                <p>
+                    Botella reutilizable para mantener tus bebidas frías o calientes.
+                </p>
+
+                <span class="precio">$55.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="cargador_portatil.jpg" alt="Producto 9">
+
+                <h2>Cargador portátil</h2>
+
+                <p>
+                    Batería externa para cargar tus dispositivos donde quieras.
+                </p>
+
+                <span class="precio">$95.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="soporte_celular.jpg" alt="Producto 10">
+
+                <h2>Soporte para celular</h2>
+
+                <p>
+                    Soporte ajustable para utilizar tu celular cómodamente.
+                </p>
+
+                <span class="precio">$35.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="camara_web.jpg" alt="Producto 11">
+
+                <h2>Cámara web</h2>
+
+                <p>
+                    Cámara para videollamadas, reuniones y clases virtuales.
+                </p>
+
+                <span class="precio">$150.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="base_portatil.jpg" alt="Producto 12">
+
+                <h2>Base para portátil</h2>
+
+                <p>
+                    Base ajustable para mejorar la posición de tu computador.
+                </p>
+
+                <span class="precio">$85.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+
+            <article class="tarjeta">
+
+                <img src="laptop_gamer.jpg" alt="Producto 13">
+
+                <h2>
+                    Computador portátil profesional de alto rendimiento para estudiantes,
+                    programadores, diseñadores y creadores de contenido
+                </h2>
+
+                <p>
+                    Equipo potente para realizar diferentes actividades académicas y
+                    profesionales.
+                </p>
+
+                <span class="precio">$3.500.000</span>
+
+                <button>Ver producto</button>
+
+            </article>
+
+        </div>
+
+    </main>
+
+
+    <footer>
+
+        <div>
+            <h3>Información</h3>
+            <a href="#">Sobre nosotros</a>
+            <a href="#">Contacto</a>
+            <a href="#">Preguntas frecuentes</a>
+        </div>
+
+        <div>
+            <h3>Ayuda</h3>
+            <a href="#">Envíos</a>
+            <a href="#">Devoluciones</a>
+            <a href="#">Garantías</a>
+        </div>
+
+        <div>
+            <h3>Síguenos</h3>
+            <a href="#">Instagram</a>
+            <a href="#">Facebook</a>
+            <a href="#">TikTok</a>
+        </div>
+
+    </footer>
+
+</body>
+
+</html>
