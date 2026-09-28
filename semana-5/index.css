@@ -1,0 +1,7 @@
+.tarjeta {
+  background: white; border-radius: 0.75rem; padding: 1rem;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+.tarjeta-imagen { width: 100%; border-radius: 0.5rem; }
+.tarjeta-titulo { font-size: 1.25rem; font-weight: 700; margin-top: 0.5rem; }
+.tarjeta-texto  { color: #64748b; font-size: 0.875rem; }
